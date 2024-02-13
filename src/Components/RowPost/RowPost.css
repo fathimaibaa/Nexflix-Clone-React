@@ -1,0 +1,52 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y:hidden ;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.poster{
+    cursor:pointer;
+    max-height: 250px;
+    margin-right: 10px;
+
+}
+
+.smallPoster{
+    cursor:pointer;
+    max-height: 150px;
+    margin-right: 10px;
+
+}
+
+.poster:hover{
+    transform :scale(1.1);
+}
+.smallposter:hover{
+    transform :scale(1.1);
+}
+
+.closeButton {
+    color: white;
+    background-color: #e53e3e; /* Red color */
+    padding: 8px 16px; /* Adjust padding as needed */
+    margin-top: 16px; /* Adjust margin-top as needed */
+    margin-left: 24px; /* Adjust margin-left as needed */
+    border-radius: 4px; /* Adjust border-radius as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.closeButton:hover {
+    background-color: #c53030; /* Darker red color on hover */
+}
